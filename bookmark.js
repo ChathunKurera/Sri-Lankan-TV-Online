@@ -3,7 +3,7 @@ var title = document.title;
 var url = document.location.href;
 
 var ua = navigator.userAgent;
-if(/chrome/i.test(ua)) {
+if(var isChrome = !!window.chrome && !isOpera) {
       alert("Press Ctrl + D");
 }else{
         alert("firefox or IE");
