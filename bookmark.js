@@ -5,7 +5,7 @@ var ua = navigator.userAgent;
 var isChrome = !!window.chrome && !isOpera;var isChrome = !!window.chrome && !isOpera;
 
 
-if(isChrome === false){
+if(isChrome === true){
  alert("Press Ctrl + D");
 }else{
      
