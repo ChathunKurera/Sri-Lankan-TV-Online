@@ -1,8 +1,10 @@
 function CreateBookmarkLink(){
 var title = document.title;
 var url = document.location.href;
-if(var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;){
-        alert("Press Ctrl + D");
+
+var ua = navigator.userAgent;
+if(/chrome/i.test(ua)) {
+      alert("Press Ctrl + D");
 }else{
         alert("firefox or IE");
 window.external.AddFavorite(url, title);}
