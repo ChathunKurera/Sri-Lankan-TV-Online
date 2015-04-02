@@ -1,7 +1,11 @@
 function CreateBookmarkLink(){
 var title = document.title;
 var url = document.location.href;
-window.external.AddFavorite(url, title);
+var elem = document.createElement('a');
+        elem.setAttribute('href',url);
+        elem.setAttribute('title',title);
+        elem.setAttribute('rel','sidebar');
+        elem.click(); // this.title=document.title;
 
 $(document).ready(function() {
     $("#bookmarkme").click(function() {
