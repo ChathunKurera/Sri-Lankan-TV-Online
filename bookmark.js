@@ -1,6 +1,12 @@
 function CreateBookmarkLink(){
 var title = document.title;
 var url = document.location.href;
+var ua = navigator.userAgent;
+var isChrome = !!window.chrome && !isOpera;var isChrome = !!window.chrome && !isOpera;
+if(isChrome === false){
+alert("Press Ctrl + D");
+}else{
+alert("firefox or IE");
 window.external.AddFavorite(url, title);}
 $(function() {
 $('#bookmarkme').click(function() {
@@ -16,17 +22,4 @@ alert('Press ' + (navigator.userAgent.toLowerCase().indexOf('mac') != - 1 ? 'Com
 }
 });
 });
-function LYbookmarksite()
-{
-try
-{
-var Location = window._content.document.location.href;
-var Title = window._content.document.title;
-var bmsvc = Components.classes["@mozilla.org/browser/nav-bookmarks-service;1"].getService(Components.interfaces.nsINavBookmarksService);
-var ios = Components.classes["@mozilla.org/network/io-service;1"].getService(Components.interfaces.nsIIOService);
-var uri = ios.newURI(Location, null, null);
-if (!bmsvc.isBookmarked(uri))
-{bmsvc.insertBookmark(bmsvc.toolbarFolder, uri, bmsvc.DEFAULT_INDEX, Title);}
-}
-catch(ee){}
 }
