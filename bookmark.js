@@ -1,15 +1,12 @@
 function CreateBookmarkLink(){
 var title = document.title;
 var url = document.location.href;
-var ua = navigator.userAgent;
-var isChrome = !!window.chrome && !isOpera;var isChrome = !!window.chrome && !isOpera;
 
 
-if(isChrome === true){
-alert("Press Ctrl + D");
-}else{
+
+
 window.external.AddFavorite(url, title);}
-}
+
 $(function() {
         $('#bookmarkme').click(function() {
             if (window.sidebar && window.sidebar.addPanel) { // Mozilla Firefox Bookmark
@@ -23,4 +20,5 @@ $(function() {
                 alert('Press ' + (navigator.userAgent.toLowerCase().indexOf('mac') != - 1 ? 'Command/Cmd' : 'CTRL') + ' + D to bookmark this page.');
             }
         });
-    });
+        
+});
