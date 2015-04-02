@@ -1,14 +1,15 @@
-$(function() {
-        $('#bookmarkme').click(function() {
-            if (window.sidebar && window.sidebar.addPanel) { // Mozilla Firefox Bookmark
-                window.sidebar.addPanel(document.title,window.location.href,'');
-            } else if(window.external && ('AddFavorite' in window.external)) { // IE Favorite
-                window.external.AddFavorite(location.href,document.title); 
-            } else if(window.opera && window.print) { // Opera Hotlist
-                this.title=document.title;
-                return true;
-            } else { // webkit - safari/chrome
-                alert('Press ' + (navigator.userAgent.toLowerCase().indexOf('mac') != - 1 ? 'Command/Cmd' : 'CTRL') + ' + D to bookmark this page.');
-            }
-        });
-    });
+function bookmark(title, url) {
+    if(document.all) { // ie
+        window.external.AddFavorite(url, title);
+    }
+    else if(window.sidebar) { // firefox
+        window.sidebar.addPanel(title, url, "");
+    }
+    else if(window.opera && window.print) { // opera
+        var elem = document.createElement('a');
+        elem.setAttribute('href',url);
+        elem.setAttribute('title',title);
+        elem.setAttribute('rel','sidebar');
+        elem.click(); // this.title=document.title;
+    }
+}
