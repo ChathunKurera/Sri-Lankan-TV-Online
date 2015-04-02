@@ -1,5 +1,6 @@
  function myFuntionIE(){
-   window.external.AddFavorite("http://vishvvaw.github.io/SriLankanTVOnline/", "SriLankanTVOnline");
+    alert("Press CTRL + D to bookmark me :D");
+}
    
  }
  
