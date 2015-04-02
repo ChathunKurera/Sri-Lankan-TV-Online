@@ -1,6 +1,8 @@
 function CreateBookmarkLink(){
 var title = document.title;
 var url = document.location.href;
+var ua = navigator.userAgent;
+
 var elem = document.createElement('a');
         elem.setAttribute('href',url);
         elem.setAttribute('title',title);
