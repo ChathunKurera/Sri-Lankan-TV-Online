@@ -2,8 +2,9 @@ function CreateBookmarkLink(){
 var title = document.title;
 var url = document.location.href;
 if(var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;){
-        alert("Press Ctrl + D")
+        alert("Press Ctrl + D");
 }else{
+        alert("firefox or IE");
 window.external.AddFavorite(url, title);}
 $(function() {
         $('#bookmarkme').click(function() {
