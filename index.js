@@ -9,9 +9,9 @@ document.getElementById("video").src = "https://www.youtube.com/embed/"+ video_i
 }
 function myFunction2(video_id3) {
 switch (video_id3) {
-case 1: video_id3 ="HiruTV.html" ; break;
+case 1: video_id3 ="Hiru.html" ; break;
 case 2: video_id3 ="Rupavahini.html" ; break;
-case 3: video_id3 ="ITN.html" ; break;
+case 3: video_id3 ="Itn.html" ; break;
 case 4: video_id3 = "Derana.html"; break;
 case 6: video_id3 ="NewsFirst.html " ; break;
 }
