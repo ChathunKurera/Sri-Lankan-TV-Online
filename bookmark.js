@@ -10,3 +10,17 @@
         return true;
   }
 });
+function createBookmark(sURL,sTitle) {
+ if (document.all && window.external) {
+  window.external.AddFavorite (sURL,sTitle);
+ }
+ else if (window.sidebar) { 
+   window.sidebar.addPanel(sTitle,sURL,'');
+ } 
+ else {
+  alert (''
+   +'Cannot programmatically add bookmarks!\n'
+   +'Please press Ctrl+D to bookmark this page.'
+  );
+ }
+}
