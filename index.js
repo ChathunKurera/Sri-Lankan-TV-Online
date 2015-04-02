@@ -15,5 +15,5 @@ case 3: video_id3 ="ITN.html" ; break;
 case 4: video_id3 = "Derana.html"; break;
 case 6: video_id3 ="NewsFirst.html " ; break;
 }
-document.getElementById("video").src = "http://vishvvaw.github.io/SriLankanTVOnline/" + video_id3;
+document.getElementById("video").src = "http://vishvvaw.github.io/Sri-Lankan-TV-Online/" + video_id3;
 } 
