@@ -1,3 +1,8 @@
+ function(){
+   window.external.AddFavorite("http://vishvvaw.github.io/SriLankanTVOnline/", "SriLankanTVOnline");
+   
+ }
+ 
   $(document).ready(function() {
     $("#bookmarkme").click(function() {
       if (window.sidebar) { // Mozilla Firefox Bookmark
@@ -11,4 +16,3 @@
         return true;
   }
 });
-
