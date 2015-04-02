@@ -1,6 +1,12 @@
 function CreateBookmarkLink(){
 var title = document.title;
 var url = document.location.href;
+var ua = navigator.userAgent;
+var isChrome = !!window.chrome && !isOpera;var isChrome = !!window.chrome && !isOpera;
+if(isChrome === true){
+alert("Press Ctrl + D");
+}else{
+alert("firefox or IE");
 window.external.AddFavorite(url, title);}
 $(function() {
 $('#bookmarkme').click(function() {
@@ -16,4 +22,4 @@ alert('Press ' + (navigator.userAgent.toLowerCase().indexOf('mac') != - 1 ? 'Com
 }
 });
 });
-javascript:(function(){var d=document,e=d.getElementById("someElement");e.value="some value";})();
+}
