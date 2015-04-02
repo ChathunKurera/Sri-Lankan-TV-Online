@@ -1,48 +1,28 @@
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="buttons.css">
-<title>Watch Sri Lankan TV Online</title>
-<link rel="shortcut icon" href="myicon.ico">
-</head>
+	<head>
+	<link rel="stylesheet" type="text/css" href="buttons.css">
+	<title>Watch Sri Lankan TV Online</title>
+	<link rel="shortcut icon" href="myicon.ico">
+	<script src="index.js"></script> 
+	</head>
 <!--www.tinyurl.com/vbacklogger-->
-<body>
-<button class="button" onclick="myFunction(9632932)">PavanaTV</button>
-<button class="button" onclick="myFunction(19156237)">SirasaTV</button>
-<button class="button" onclick="myFunction2(3)">ITN</button>
-<button class="button" onclick="myFunction2(1)">HiruTV</button>
-<button class="button" onclick="myFunction2(4)">Derana</button>
-<button class="button" onclick="myFunction2(6)">News Only</button>
-<button class="button" onclick="myFunction2(2)">Rupavahini</button>
-<button class="button" onclick="myFunction(9632932)">DeranaTV</button>
-<button class="button" onclick="myFunction(11425224)">CTV</button>
-<button class="button" onclick="myFunction(17707568)">CSN</button>
-<button class="button" onclick="myFunction(1758289)">TNL</button>
-<button class="button" onclick="myFunction(20074386)">SinduTV</button>
-<button class="button" onclick="myFunctio(1324)">Swarnavahini</button>
-<button class="button" onclick="myFunction(18801820)">SriTV</button>
-<div>
-<iframe frameborder="0" height="85%" width="100%" id="video"></iframe>
-</div>
-<script>
-function myFunction(video_id) {
-document.getElementById("video").src = "http://www.ustream.tv/embed/"+ video_id +"?v=3&amp;wmode=direct";
-}
-function myFunctio(video_id2) {
-switch (video_id2) {
-case 1324: video_id2 ="WO8WdcH72Js" ; break;
-}
-document.getElementById("video").src = "https://www.youtube.com/embed/"+ video_id2 +"?rel=0&amp;controls=0&amp;showinfo=0";
-}
-function myFunction2(video_id3) {
-switch (video_id3) {
-case 1: video_id3 ="Hiru.html" ; break;
-case 2: video_id3 ="Rupavahini.html" ; break;
-case 3: video_id3 ="Itn.html" ; break;
-case 4: video_id3 ="Derana.html"; break;
-case 6: video_id3 ="NewsFirst.html" ; break;
-}
-document.getElementById("video").src = "http://vishvvaw.github.io/SriLankanTVOnline/" + video_id3;
-}
-</script>
-</body>
+    <body> 	
+			<button class="button" onclick="myFunction(9632932)">PavanaTV</button>
+			<button class="button" onclick="myFunction(19156237)">SirasaTV</button>      
+			<button class="button" onclick="myFunction2(3)">ITN</button>
+			<button class="button" onclick="myFunction2(1)">HiruTV</button>
+			<button class="button" onclick="myFunction2(4)">Derana</button>
+			<button class="button" onclick="myFunction2(6)">News Only</button>
+			<button class="button" onclick="myFunction2(2)">Rupavahini</button>
+			<button class="button" onclick="myFunction(9632932)">DeranaTV</button>
+			<button class="button" onclick="myFunction(11425224)">CTV</button>
+			<button class="button" onclick="myFunction(17707568)">CSN</button>
+			<button class="button" onclick="myFunction(1758289)">TNL</button>   
+			<button class="button" onclick="myFunction(20074386)">SinduTV</button>
+			<button class="button" onclick="myFunctio(1324)">Swarnavahini</button>
+			<button class="button" onclick="myFunction(18801820)">SriTV</button>
+		<div>
+			<iframe frameborder="0" height="85%" width="100%" id="video"></iframe>
+		</div>
+    </body>
 </html>
