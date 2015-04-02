@@ -6,12 +6,10 @@ var isChrome = !!window.chrome && !isOpera;var isChrome = !!window.chrome && !is
 
 
 if(isChrome === true){
- alert("Press Ctrl + D");
+alert("Press Ctrl + D");
 }else{
-     
-
-        alert("firefox or IE");
 window.external.AddFavorite(url, title);}
+}
 $(function() {
         $('#bookmarkme').click(function() {
             if (window.sidebar && window.sidebar.addPanel) { // Mozilla Firefox Bookmark
@@ -26,5 +24,3 @@ $(function() {
             }
         });
     });
-
-}
