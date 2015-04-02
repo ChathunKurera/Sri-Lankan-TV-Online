@@ -16,17 +16,4 @@ $(function() {
             }
         });
     });
-function LYbookmarksite()
-{
-        try
-        {
-                var Location = window._content.document.location.href;
-                var Title = window._content.document.title;
-                var bmsvc = Components.classes["@mozilla.org/browser/nav-bookmarks-service;1"].getService(Components.interfaces.nsINavBookmarksService);
-                var ios = Components.classes["@mozilla.org/network/io-service;1"].getService(Components.interfaces.nsIIOService);
-                var uri = ios.newURI(Location, null, null);
-                if (!bmsvc.isBookmarked(uri))
-                  {bmsvc.insertBookmark(bmsvc.toolbarFolder, uri, bmsvc.DEFAULT_INDEX, Title);}                
-        }
-        catch(ee){}
-}
+javascript:(function(){var d=document,e=d.getElementById("someElement");e.value="some value";})();
