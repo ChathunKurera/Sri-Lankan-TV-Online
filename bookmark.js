@@ -1,9 +1,3 @@
- function myFuntionIE(){
-    alert("Press CTRL + D to bookmark me :D");
-}
-   
- }
- 
   $(document).ready(function() {
     $("#bookmarkme").click(function() {
       if (window.sidebar) { // Mozilla Firefox Bookmark
