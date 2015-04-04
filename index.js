@@ -17,3 +17,6 @@ case 6: video_id3 ="NewsFirst.html " ; break;
 }
 document.getElementById("video").src = "http://vishvvaw.github.io/Sri-Lankan-TV-Online/" + video_id3;
 } 
+function myFuntionIE(){
+	alert("Press CTRL + D to bookmark me :D");
+}
