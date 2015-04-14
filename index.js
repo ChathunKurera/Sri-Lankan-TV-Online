@@ -5,7 +5,7 @@ function myFunctio(video_id2) {
 switch (video_id2) {
 case 1324: video_id2 ="WO8WdcH72Js" ; break;
 }
-document.getElementById("video").src = "https://www.youtube.com/embed/"+ video_id2 +"?rel=0&amp;amp;showinfo=0&autoplay=1";
+document.getElementById("video").src = "https://www.youtube.com/embed/"+ video_id2 +"?rel=0&amp;showinfo=0&autoplay=1";
 }
 function myFunction2(video_id3) {
 switch (video_id3) {
