@@ -1,5 +1,5 @@
 function myFunction(video_id) {
-document.getElementById("video").src = "http://www.ustream.tv/embed/"+ video_id +"?v=3&amp;wmode=direct";
+document.getElementById("video").src = "http://www.ustream.tv/embed/"+ video_id +"?v=3&amp;wmode=direct;autoplay=true";
 }
 function myFunctio(video_id2) {
 switch (video_id2) {
