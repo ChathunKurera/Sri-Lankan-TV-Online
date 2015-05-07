@@ -3,7 +3,7 @@ document.getElementById("video").src = "http://www.ustream.tv/embed/"+ video_id 
 }
 function myFunctio(video_id2) {
 switch (video_id2) {
-case 1324: video_id2 ="WO8WdcH72Js" ; break;
+case 1324: video_id2 ="9dUPSsv-dMc" ; break;
 }
 document.getElementById("video").src = "https://www.youtube.com/embed/"+ video_id2 +"?autoplay=1";
 }
