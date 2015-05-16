@@ -3,7 +3,7 @@ document.getElementById("video").src = "http://www.ustream.tv/embed/"+ video_id 
 }
 function myFunctio(video_id2) {
 switch (video_id2) {
-case 2h2liR3goX0:document.getElementById("video").src = "https://www.youtube.com/embed/"+ video_id2 +"?autoplay=1"; break;
+case 22222: video_id2 ="2h2liR3goX0"; document.getElementById("video").src = "https://www.youtube.com/embed/"+ video_id2 +"?autoplay=1"; break;
 case 44545: document.getElementById("video").src = "www.youtube.com/embed?listType=user_uploads&list=NewsFirstSrilanka"; break;
 }
 
