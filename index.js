@@ -5,14 +5,14 @@ function youtubeStream(video_id2) {
 switch (video_id2) {
 case 22222: video_id2 ="2h2liR3goX0";break;
 }
-document.getElementById("video").src = "https://www.youtube.com/embed/"+ video_id2 +"?autoplay=1";
+document.getElementById("video").src = "https://www.youtube.com/embed/"+ video_id2 +"?theme=light&autoplay=1";
 }
 
 function youtubeAccUpl(video_id2) {
 switch (video_id2) {
 case 44545: video_user= "NewsFirstSrilanka"; break;
 }
-document.getElementById("video").src = "https://www.youtube.com/embed?listType=user_uploads&list=" + video_user;
+document.getElementById("video").src = "https://www.youtube.com/embed?listType=user_uploads&theme=light&list=" + video_user;
 }
 
 function externalPage(video_id3) {
