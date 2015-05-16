@@ -1,14 +1,21 @@
-function myFunction(video_id) {
+function uStream(video_id) {
 document.getElementById("video").src = "http://www.ustream.tv/embed/"+ video_id +"?v=3&amp;wmode=direct&amp;autoplay=true";
 }
-function myFunctio(video_id2) {
+function youtubeStream(video_id2) {
 switch (video_id2) {
-case 22222: video_id2 ="2h2liR3goX0"; document.getElementById("video").src = "https://www.youtube.com/embed/"+ video_id2 +"?autoplay=1"; break;
-case 44545: document.getElementById("video").src = "www.youtube.com/embed?listType=user_uploads&list=NewsFirstSrilanka"; break;
+case 22222: video_id2 ="2h2liR3goX0";break;
+}
+document.getElementById("video").src = "https://www.youtube.com/embed/"+ video_id2 +"?autoplay=1";
 }
 
+function youtubeAccUpl(video_id2) {
+switch (video_id2) {
+case 44545: video_user= "NewsFirstSrilanka"; break;
 }
-function myFunction2(video_id3) {
+document.getElementById("video").src = "https://www.youtube.com/embed?listType=user_uploads&list=" + video_user;
+}
+
+function externalPage(video_id3) {
 switch (video_id3) {
 case 1: video_id3 ="Hiru.html" ; break;
 case 2: video_id3 ="Rupavahini.html" ; break;
