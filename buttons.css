@@ -35,6 +35,7 @@
 		background:-webkit-linear-gradient(top, #d1d1d1 0%,#ECECEC 100%);
 	}
 	#facebook {
-	 bottom: 5px;
-	 right: 5px;    
+	 bottom: 0px;
+	 right: 5px;
+	 margin-bottom:10px;
 }
