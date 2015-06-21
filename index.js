@@ -27,3 +27,9 @@ document.getElementById("video").src = "http://vishvvaw.github.io/Sri-Lankan-TV-
 function myFuntionIE(){
 	alert("Press CTRL + D to bookmark me :D");
 }
+function mbRDRT(){
+	window.location.replace("http://vishvvaw.github.io/Sri-Lankan-TV-Online/index_mobile.html");	
+}
+function SurveyJS(){		
+	window.open("http://goo.gl/forms/FRUwrKK0Mb");
+}
