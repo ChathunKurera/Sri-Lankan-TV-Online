@@ -7,7 +7,7 @@
         alert("CTRL + D too bookmark this website!")
       else if(window.opera && window.print) { // Opera Hotlist
         this.title=document.title;
-         alert("CTRL + D too bookmark this website!")
+         alert("CTRL + D too bookmark this website!");
         return true;
   }
 });
