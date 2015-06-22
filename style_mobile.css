@@ -21,21 +21,22 @@ nav {
 ul {
 	text-align: center;
 }
-@media screen and (max-device-width : 320px)
+/*@media screen and (max-device-width : 320px)
 {
   ul li
   {
-	font: 13em Verdana, 'Lucida Grande';    
+	 
   }
 }
 @media screen and (max-device-width : 1204px)
 {
   ul li
   {
-	font: 13em Verdana, 'Lucida Grande';    
+	font: 3em Verdana, 'Lucida Grande';    
   }
-}
+}*/
 ul li {	
+	font: 1em Verdana, 'Lucida Grande';   
 	cursor: pointer;
 	-webkit-transition: padding .05s linear;
 	-moz-transition: padding .05s linear;
