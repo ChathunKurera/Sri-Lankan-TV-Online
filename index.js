@@ -30,3 +30,6 @@ function myFuntionIE(){
 function SurveyJS(){		
 	window.open("http://goo.gl/forms/FRUwrKK0Mb");
 }
+function SLmedia(){		
+	window.open("http://vishvvaw.github.io/Sinhala-Media/");
+}
