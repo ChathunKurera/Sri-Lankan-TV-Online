@@ -33,3 +33,6 @@ function SurveyJS(){
 function SLmedia(){		
 	window.open("http://vishvvaw.github.io/Sinhala-Media/");
 }
+function SLradio(){		
+	window.open("http://vishvvaw.github.io/Sri-Lankan-Radio/");
+}
