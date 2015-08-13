@@ -1,41 +1,51 @@
 <html>
 	<head>	
-	<link rel="stylesheet" type="text/css" href="buttons.css">
-	<title>Watch Sri Lankan TV Online</title>
-	<link rel="shortcut icon" href="myicon.ico">
-	<script src="index.js"></script> 
-	<script src="bookmark.js"></script> 	
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		<link rel="stylesheet" type="text/css" href="buttons.css">
+		<title>Watch Sri Lankan TV Online</title>
+		<link rel="shortcut icon" href="myicon.ico">
+		<script src="index.js"></script> 
+		<script src="bookmark.js"></script> 	
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	ga('create', 'UA-61491557-1', 'auto');
-	ga('send', 'pageview');
-	</script>		
+	
+			ga('create', 'UA-61491557-1', 'auto');
+			ga('send', 'pageview');
+		</script>		
 	</head>	
 <!--www.tinyurl.com/vbacklogger-->
-    <body>	<center>
-    		<button class="button" onclick="uStream(19156237)">SirasaTV</button>      
-		<button class="button" onclick="youtubeStream(22222)">Swarnavahini</button>
-		<button class="button" onclick="externalPage(3)">ITN</button>		
-		<button class="button" onclick="externalPage(4)">Derana</button>		
-		<button class="button" onclick="externalPage(2)">Rupavahini</button>		
-		<button class="button" onclick="uStream(11425224)">CTV</button>
-		<button class="button" onclick="externalPage(1)">HiruTV</button>
-		<button class="button" onclick="uStream(17707568)">CSN</button>
-		<button class="button" onclick="uStream(1758289)">TNL</button>   
-		<button class="button" onclick="uStream(20074386)">SinduTV</button>		
-		<button class="button" onclick="uStream(18801820)">SriTV</button>
-		<button class="button" onclick="uStream(9632932)">PavanaTV</button>		
-		<button class="button" onclick="youtubeAccUpl(44545)">News Only</button>		
-		<button class="button" onclick="SurveyJS()">Survey</button>
-		<button class="button" onclick="SLmedia()">Sinhala Media</button>
-		<a id="bookmarkme" href="#" rel="sidebar" title="bookmark this page"><button class="button" onclick="myFuntionIE()">Bookmark Me!</button></a></center>
-		<div>
-			<iframe frameborder="0" height="85%" width="100%" id="video"></iframe>
-		</div>	
+    <body>	 
+	
+	<ul>
+    	<li onclick="uStream(19156237)">SirasaTV</li>      
+		<li onclick="youtubeStream(22222)">Swarnavahini</li>
+		<li onclick="externalPage(3)">ITN</li>		
+		<li onclick="externalPage(4)">Derana</li>		
+		<li onclick="externalPage(2)">Rupavahini</li>		
+		<li onclick="uStream(11425224)">CTV</li>
+		<li onclick="externalPage(1)">HiruTV</li>
+		<li onclick="uStream(17707568)">CSN</li>
+		<li onclick="uStream(1758289)">TNL</li>   
+		<li onclick="uStream(20074386)">SinduTV</li>		
+		<li onclick="uStream(18801820)">SriTV</li>
+		<li onclick="uStream(9632932)">PavanaTV</li>		
+		<li onclick="youtubeAccUpl(44545)">News Only</li>		
+		<li onclick="SurveyJS()">Survey</li>
+		<li onclick="SLmedia()">Sinhala Media</li>
+		
+		<a id="bookmarkme" href="#" rel="sidebar" title="bookmark this page">
+			<li  onclick="myFuntionIE()">Bookmark Me!</li>
+		</a>
+		
+	</ul>  
+		
+	<div>
+		<iframe frameborder="0" height="85%" width="100%" id="video"></iframe>
+	</div>	
+		
+		
 		<div id="facebook">
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
