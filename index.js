@@ -4,6 +4,8 @@ document.getElementById("video").src = "http://www.ustream.tv/embed/"+ video_id 
 function youtubeStream(video_id2) {
 switch (video_id2) {
 case 22222: video_id2 ="yZWhtPEjKbA";break;
+case 33333: video_id2 ="cqsgq8o2JLk";break;
+case 44444: video_id2 ="foLxon7B96Y";break;
 }
 document.getElementById("video").src = "https://www.youtube.com/embed/"+ video_id2 +"?theme=light&autoplay=1";
 }
